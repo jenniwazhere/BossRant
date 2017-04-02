@@ -1,0 +1,32 @@
+2017-04-01T19:10:51.807547700 0.014040s notice: In recursion: removing file 'C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data\\tmp'
+2017-04-01T19:10:51.807547701 0.014419s warn: Trying to delete non-existent file 'C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data\\tmp'
+2017-04-01T19:10:51.808547800 0.015274s notice: Initializing directory C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data
+2017-04-01T19:10:51.813548100 0.019726s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data' did not already exist or is empty.)
+2017-04-01T19:10:51.813548101 0.019817s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-01T19:10:51.813548102 0.019839s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2017-04-01T19:10:51.813548103 0.019854s notice: Loading data from directory C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data
+2017-04-01T19:10:52.229571900 0.387659s info: Cache size is set to 200 MB
+2017-04-01T19:10:52.231572000 0.389003s notice: Listening for intracluster connections on port 52859
+2017-04-01T19:10:52.232572000 0.390127s notice: Listening for client driver connections on port 52860
+2017-04-01T19:10:52.232572001 0.390271s notice: Listening for administrative HTTP connections on port 52861
+2017-04-01T19:10:52.232572002 0.390293s notice: Listening on cluster address: 127.0.0.1
+2017-04-01T19:10:52.232572003 0.390310s notice: Listening on driver address: 127.0.0.1
+2017-04-01T19:10:52.232572004 0.390311s notice: Listening on http address: 127.0.0.1
+2017-04-01T19:10:52.232572005 0.390314s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-01T19:10:52.232572006 0.390327s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
+2017-04-01T19:10:52.517588300 0.641697s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Starting a new Raft election for term 1.
+2017-04-01T19:10:52.517588301 0.642092s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Added replica on this server.
+2017-04-01T19:10:52.539589600 0.661262s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Starting a new Raft election for term 1.
+2017-04-01T19:10:52.539589601 0.661709s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Added replica on this server.
+2017-04-01T19:10:52.544589900 0.665869s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Starting a new Raft election for term 1.
+2017-04-01T19:10:52.544589901 0.666064s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Added replica on this server.
+2017-04-01T19:10:52.552590300 0.673028s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-01T19:10:52.552590301 0.673062s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-01T19:10:52.554590400 0.674864s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-01T19:10:53.238629600 1.279424s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Starting a new Raft election for term 1.
+2017-04-01T19:10:53.239629600 1.279828s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Added replica on this server.
+2017-04-01T19:10:53.245630000 1.285382s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-01T19:12:12.927187500 71.705419s notice: Server got Control-C; shutting down...
+2017-04-01T19:12:12.927187501 71.705534s notice: Shutting down client connections...
+2017-04-01T19:12:12.928187600 71.706116s notice: All client connections closed.
+2017-04-01T19:12:12.928187601 71.706120s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
