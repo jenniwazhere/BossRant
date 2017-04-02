@@ -9,14 +9,36 @@
         form :focus:required:invalid {
             border-color: #a94442;
         }
+
+        .container {
+            background-image: url("Login.jpg");
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+            width: 60%;
+            /*border: 3px solid #73AD21;*/
+            padding: 10px;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
     </style>
 </head>
 
 <body class="container">
+
     <header>
         <h1>Log-in</h1>
+        <button type="button" value="Signup" id="recreate" onclick="window.location.href='signup.html'" class="btn btn-link">Sign-up</button>
     </header>
     <section>
+
         <div class="panel panel-default">
             <div class="panel-body">
                 <form id="main-form" data-user-login="form">
@@ -29,8 +51,12 @@
                         <input class="form-control" name="pass" id="password" type="password" placeholder="Enter Password" required/>
                     </div>
 
-                    <button type="button" value="Login" id="submit" class="btn btn-default">Log-in</button>
-                    <button type="button" value="Signup" id="recreate" onclick="window.location.href='signup.html'" class="btn btn-default">Sign-up</button>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+
+                    <button type="button" value="Login" id="submit" class="btn btn-primary">Log-in</button>
+                    <!-- <button type="button" value="Signup" id="recreate" onclick="window.location.href='signup.html'" class="btn btn-link">Sign-up</button> -->
                 </form>
             </div>
         </div>
@@ -42,7 +68,7 @@
     <script src="scripts/validation.js" charset="utf-8"></script>
 
     <script src="scripts/formhandler.js" charset="utf-8"></script>
-  
+
     <script src="scripts/main.js" charset="utf-8"></script>
 </body>
 
