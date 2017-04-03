@@ -274,6 +274,15 @@ section h3.section-subheading {
     text-transform: none
 }
 
+.rant-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 150;
+    font-size: 10px;
+    line-height: 35px;
+    margin-bottom: 50px
+}
+
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0
