@@ -48,3 +48,23 @@ Grading
 	- Web design
 	- Teamwork  
 
+-----------------Installation & Configuration-----------------
+Requires:
+	- RethinkDB
+	- Bootstrap
+	- 
+
+Install:
+	- RethinkDB
+	- Horizon
+		* Terminal command: npm install -g horizon
+
+Run:
+	- Horizon
+		* Terminal command: hz init <folder_name>
+		* Terminal command: hz serve --dev
+
+-----------------Documentation-----------------
+
+License:
+	- This project was built using the Bootstrap framework.
