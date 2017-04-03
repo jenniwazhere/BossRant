@@ -775,3 +775,11 @@ img::selection {
 img::-moz-selection {
     background: 0 0
 }
+
+.fa-github {
+    font-size: 75pt;
+}
+
+.fa-github:hover {
+    color: black;
+}
