@@ -1,199 +1,32 @@
-2017-04-01T19:10:51.807547700 0.014040s notice: In recursion: removing file 'C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data\\tmp'
-2017-04-01T19:10:51.807547701 0.014419s warn: Trying to delete non-existent file 'C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data\\tmp'
-2017-04-01T19:10:51.808547800 0.015274s notice: Initializing directory C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data
-2017-04-01T19:10:51.813548100 0.019726s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data' did not already exist or is empty.)
-2017-04-01T19:10:51.813548101 0.019817s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-01T19:10:51.813548102 0.019839s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
-2017-04-01T19:10:51.813548103 0.019854s notice: Loading data from directory C:\\Users\\Mr. Geterson\\Desktop\\front-end-dev-book\\Project_1\\Horizon_Test\\rethinkdb_data
-2017-04-01T19:10:52.229571900 0.387659s info: Cache size is set to 200 MB
-2017-04-01T19:10:52.231572000 0.389003s notice: Listening for intracluster connections on port 52859
-2017-04-01T19:10:52.232572000 0.390127s notice: Listening for client driver connections on port 52860
-2017-04-01T19:10:52.232572001 0.390271s notice: Listening for administrative HTTP connections on port 52861
-2017-04-01T19:10:52.232572002 0.390293s notice: Listening on cluster address: 127.0.0.1
-2017-04-01T19:10:52.232572003 0.390310s notice: Listening on driver address: 127.0.0.1
-2017-04-01T19:10:52.232572004 0.390311s notice: Listening on http address: 127.0.0.1
-2017-04-01T19:10:52.232572005 0.390314s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-01T19:10:52.232572006 0.390327s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-01T19:10:52.517588300 0.641697s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Starting a new Raft election for term 1.
-2017-04-01T19:10:52.517588301 0.642092s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Added replica on this server.
-2017-04-01T19:10:52.539589600 0.661262s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Starting a new Raft election for term 1.
-2017-04-01T19:10:52.539589601 0.661709s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Added replica on this server.
-2017-04-01T19:10:52.544589900 0.665869s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Starting a new Raft election for term 1.
-2017-04-01T19:10:52.544589901 0.666064s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Added replica on this server.
-2017-04-01T19:10:52.552590300 0.673028s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-01T19:10:52.552590301 0.673062s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-01T19:10:52.554590400 0.674864s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-01T19:10:53.238629600 1.279424s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Starting a new Raft election for term 1.
-2017-04-01T19:10:53.239629600 1.279828s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Added replica on this server.
-2017-04-01T19:10:53.245630000 1.285382s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-01T19:12:12.927187500 71.705419s notice: Server got Control-C; shutting down...
-2017-04-01T19:12:12.927187501 71.705534s notice: Shutting down client connections...
-2017-04-01T19:12:12.928187600 71.706116s notice: All client connections closed.
-2017-04-01T19:12:12.928187601 71.706120s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
-2017-04-02T17:44:02.043191500 0.008969s notice: In recursion: removing file 'C:\\xampp\\htdocs\\BossRant\\Horizon_Test\\rethinkdb_data\\tmp'
-2017-04-02T17:44:02.043691900 0.009430s warn: Trying to delete non-existent file 'C:\\xampp\\htdocs\\BossRant\\Horizon_Test\\rethinkdb_data\\tmp'
-2017-04-02T17:44:02.044191700 0.010020s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-02T17:44:02.044191701 0.010045s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-02T17:44:02.044191702 0.010058s notice: Loading data from directory C:\\xampp\\htdocs\\BossRant\\Horizon_Test\\rethinkdb_data
-2017-04-02T17:44:02.080603900 0.046404s info: Cache size is set to 200 MB
-2017-04-02T17:44:02.082103600 0.047824s notice: Listening for intracluster connections on port 2490
-2017-04-02T17:44:02.105608800 0.071567s notice: Listening for client driver connections on port 2491
-2017-04-02T17:44:02.105608801 0.071749s notice: Listening for administrative HTTP connections on port 2492
-2017-04-02T17:44:02.106108900 0.071767s notice: Listening on cluster address: 127.0.0.1
-2017-04-02T17:44:02.106108901 0.071794s notice: Listening on driver address: 127.0.0.1
-2017-04-02T17:44:02.106108902 0.071795s notice: Listening on http address: 127.0.0.1
-2017-04-02T17:44:02.106108903 0.071796s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-02T17:44:02.106108904 0.071806s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-02T17:44:03.142236500 1.107994s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Starting a new Raft election for term 2.
-2017-04-02T17:44:03.457739500 1.423458s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Starting a new Raft election for term 2.
-2017-04-02T17:44:03.582245600 1.548010s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Starting a new Raft election for term 2.
-2017-04-02T17:44:03.596334100 1.561989s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: Starting a new Raft election for term 1.
-2017-04-02T17:44:03.596334101 1.562226s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: Added replica on this server.
-2017-04-02T17:44:03.721239800 1.687023s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: Starting a new Raft election for term 1.
-2017-04-02T17:44:03.721239801 1.687143s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: Added replica on this server.
-2017-04-02T17:44:03.794262100 1.760414s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: Starting a new Raft election for term 1.
-2017-04-02T17:44:03.794762500 1.760603s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: Added replica on this server.
-2017-04-02T17:44:03.828191900 1.794103s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: This server is Raft leader for term 2. Latest log index is 5.
-2017-04-02T17:44:03.828191901 1.794151s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: This server is Raft leader for term 2. Latest log index is 5.
-2017-04-02T17:44:03.869739800 1.835700s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: This server is Raft leader for term 2. Latest log index is 4.
-2017-04-02T17:44:03.869739801 1.835755s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-02T17:44:03.886256500 1.852340s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-02T17:44:03.886256501 1.852379s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-02T17:44:03.909265600 1.875061s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Starting a new Raft election for term 2.
-2017-04-02T17:44:04.136732400 2.102645s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: This server is Raft leader for term 2. Latest log index is 4.
-2017-04-02T17:44:07.572905300 5.539030s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: Starting a new Raft election for term 1.
-2017-04-02T17:44:07.573406400 5.539302s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: Added replica on this server.
-2017-04-02T17:44:07.608785200 5.574689s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-02T17:48:51.993237000 289.958993s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: Configuration is changing.
-2017-04-02T19:02:01.665730500 4679.631672s notice: Server got Control-C; shutting down...
-2017-04-02T19:02:01.665730501 4679.631755s notice: Shutting down client connections...
-2017-04-02T19:02:18.466733300 0.009694s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-02T19:02:18.466733301 0.009763s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-02T19:02:18.466733302 0.009780s notice: Loading data from directory C:\\xampp\\htdocs\\BossRant\\Horizon_Test\\rethinkdb_data
-2017-04-02T19:02:18.610723800 0.153592s info: Cache size is set to 200 MB
-2017-04-02T19:02:18.612224200 0.155045s notice: Listening for intracluster connections on port 4217
-2017-04-02T19:02:18.661736700 0.204787s notice: Listening for client driver connections on port 4218
-2017-04-02T19:02:18.661736701 0.204960s notice: Listening for administrative HTTP connections on port 4219
-2017-04-02T19:02:18.661736702 0.205007s notice: Listening on cluster address: 127.0.0.1
-2017-04-02T19:02:18.661736703 0.205008s notice: Listening on driver address: 127.0.0.1
-2017-04-02T19:02:18.661736704 0.205009s notice: Listening on http address: 127.0.0.1
-2017-04-02T19:02:18.661736705 0.205009s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-02T19:02:18.661736706 0.205010s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-02T19:02:19.672774600 1.215749s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: Starting a new Raft election for term 2.
-2017-04-02T19:02:19.708244100 1.251204s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Starting a new Raft election for term 3.
-2017-04-02T19:02:19.836746900 1.379803s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: This server is Raft leader for term 2. Latest log index is 6.
-2017-04-02T19:02:19.858253700 1.401422s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: This server is Raft leader for term 3. Latest log index is 9.
-2017-04-02T19:02:20.089126700 1.632067s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: Starting a new Raft election for term 2.
-2017-04-02T19:02:20.095246300 1.638191s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Starting a new Raft election for term 3.
-2017-04-02T19:02:20.166733900 1.709885s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: This server is Raft leader for term 2. Latest log index is 5.
-2017-04-02T19:02:20.166733901 1.709931s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: This server is Raft leader for term 3. Latest log index is 9.
-2017-04-02T19:02:20.264745900 1.807710s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: Starting a new Raft election for term 2.
-2017-04-02T19:02:20.308560900 1.851609s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Starting a new Raft election for term 3.
-2017-04-02T19:02:20.405238000 1.948175s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: Starting a new Raft election for term 2.
-2017-04-02T19:02:20.490761200 2.033931s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: This server is Raft leader for term 2. Latest log index is 4.
-2017-04-02T19:02:20.490761201 2.033993s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: This server is Raft leader for term 3. Latest log index is 8.
-2017-04-02T19:02:20.523718200 2.066661s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Starting a new Raft election for term 3.
-2017-04-02T19:02:20.741224600 2.284238s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: This server is Raft leader for term 2. Latest log index is 4.
-2017-04-02T19:02:20.857737200 2.400607s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: This server is Raft leader for term 3. Latest log index is 7.
-2017-04-02T20:47:46.807252300 6328.350218s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Starting a new Raft election for term 1.
-2017-04-02T20:47:46.807252301 6328.350334s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Added replica on this server.
-2017-04-02T20:47:46.848733100 6328.391698s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-02T21:11:07.096222100 7728.639103s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Configuration is changing.
-2017-04-02T22:21:49.875201600 11971.418386s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Configuration is changing.
-2017-04-02T22:22:45.442274900 12026.985430s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Configuration is changing.
-2017-04-03T03:29:22.282671900 0.019339s notice: In recursion: removing file 'C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data\\tmp'
-2017-04-03T03:29:22.283673300 0.020135s warn: Trying to delete non-existent file 'C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data\\tmp'
-2017-04-03T03:29:22.284674300 0.021209s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-03T03:29:22.284674301 0.021235s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-03T03:29:22.284674302 0.021247s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
-2017-04-03T03:29:22.300189100 0.036945s info: Cache size is set to 200 MB
-2017-04-03T03:29:22.304199800 0.040835s notice: Listening for intracluster connections on port 51065
-2017-04-03T03:29:22.679609200 0.416404s notice: Listening for client driver connections on port 51066
-2017-04-03T03:29:22.680109400 0.416800s notice: Listening for administrative HTTP connections on port 51067
-2017-04-03T03:29:22.680109401 0.416843s notice: Listening on cluster address: 127.0.0.1
-2017-04-03T03:29:22.680109402 0.416845s notice: Listening on driver address: 127.0.0.1
-2017-04-03T03:29:22.680109403 0.416847s notice: Listening on http address: 127.0.0.1
-2017-04-03T03:29:22.680109404 0.416936s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-03T03:29:22.680109405 0.416939s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-03T03:34:18.924611500 0.020236s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-03T03:34:18.924611501 0.020376s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-03T03:34:18.924611502 0.020410s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
-2017-04-03T03:34:18.938682200 0.034075s info: Cache size is set to 200 MB
-2017-04-03T03:34:18.942184600 0.037669s notice: Listening for intracluster connections on port 51166
-2017-04-03T03:34:19.031770100 0.127628s notice: Listening for client driver connections on port 51167
-2017-04-03T03:34:19.032270600 0.127823s notice: Listening for administrative HTTP connections on port 51168
-2017-04-03T03:34:19.032270601 0.127876s notice: Listening on cluster address: 127.0.0.1
-2017-04-03T03:34:19.032270602 0.127877s notice: Listening on driver address: 127.0.0.1
-2017-04-03T03:34:19.032270603 0.127878s notice: Listening on http address: 127.0.0.1
-2017-04-03T03:34:19.032270604 0.127879s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-03T03:34:19.032270605 0.127880s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-03T03:36:25.337012500 0.018283s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-03T03:36:25.337012501 0.018394s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-03T03:36:25.337012502 0.018412s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
-2017-04-03T03:36:25.347521800 0.029115s info: Cache size is set to 200 MB
-2017-04-03T03:36:25.350025400 0.031269s notice: Listening for intracluster connections on port 51222
-2017-04-03T03:36:25.426097100 0.107573s notice: Listening for client driver connections on port 51223
-2017-04-03T03:36:25.426597300 0.107822s notice: Listening for administrative HTTP connections on port 51224
-2017-04-03T03:36:25.426597301 0.107842s notice: Listening on cluster address: 127.0.0.1
-2017-04-03T03:36:25.426597302 0.107843s notice: Listening on driver address: 127.0.0.1
-2017-04-03T03:36:25.426597303 0.107865s notice: Listening on http address: 127.0.0.1
-2017-04-03T03:36:25.426597304 0.107866s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-03T03:36:25.426597305 0.107867s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-03T03:43:34.420314900 0.016378s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-03T03:43:34.420815100 0.016469s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-03T03:43:34.420815101 0.016496s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
-2017-04-03T03:43:34.431325100 0.027260s info: Cache size is set to 200 MB
-2017-04-03T03:43:34.433828000 0.029465s notice: Listening for intracluster connections on port 51323
-2017-04-03T03:43:34.516402800 0.112181s notice: Listening for client driver connections on port 51324
-2017-04-03T03:43:34.516402801 0.112366s notice: Listening for administrative HTTP connections on port 51325
-2017-04-03T03:43:34.516402802 0.112396s notice: Listening on cluster address: 127.0.0.1
-2017-04-03T03:43:34.516402803 0.112397s notice: Listening on driver address: 127.0.0.1
-2017-04-03T03:43:34.516402804 0.112398s notice: Listening on http address: 127.0.0.1
-2017-04-03T03:43:34.516402805 0.112399s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-03T03:43:34.516402806 0.112400s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-03T08:14:10.807519200 0.017487s notice: In recursion: removing file 'C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\tmp'
-2017-04-03T08:14:10.808519500 0.018378s warn: Trying to delete non-existent file 'C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\tmp'
-2017-04-03T08:14:10.809521500 0.019549s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
-2017-04-03T08:14:10.809521501 0.019604s notice: Running on 6.2.9200 (Windows 8, Server 2012)
-2017-04-03T08:14:10.809521502 0.019632s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
-2017-04-03T08:14:10.943772600 0.153665s info: Cache size is set to 200 MB
-2017-04-03T08:14:10.949299100 0.159185s notice: Listening for intracluster connections on port 19217
-2017-04-03T08:14:11.993110700 1.203817s notice: Listening for client driver connections on port 19218
-2017-04-03T08:14:11.994104100 1.204636s notice: Listening for administrative HTTP connections on port 19219
-2017-04-03T08:14:11.994104101 1.204701s notice: Listening on cluster address: 127.0.0.1
-2017-04-03T08:14:11.994104102 1.204812s notice: Listening on driver address: 127.0.0.1
-2017-04-03T08:14:11.994104103 1.204816s notice: Listening on http address: 127.0.0.1
-2017-04-03T08:14:11.994104104 1.204819s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2017-04-03T08:14:11.994104105 1.204823s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
-2017-04-03T08:14:12.472322100 1.682322s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: Starting a new Raft election for term 3.
-2017-04-03T08:14:12.599913400 1.809944s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: This server is Raft leader for term 3. Latest log index is 9.
-2017-04-03T08:14:12.683472400 1.893601s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Starting a new Raft election for term 4.
-2017-04-03T08:14:12.773537300 1.983611s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: Starting a new Raft election for term 3.
-2017-04-03T08:14:12.826074300 2.036137s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: This server is Raft leader for term 4. Latest log index is 13.
-2017-04-03T08:14:12.894125300 2.104218s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Starting a new Raft election for term 4.
-2017-04-03T08:14:12.954168000 2.164914s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: This server is Raft leader for term 3. Latest log index is 8.
-2017-04-03T08:14:13.083267500 2.293510s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: Starting a new Raft election for term 3.
-2017-04-03T08:14:13.087270400 2.297350s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: This server is Raft leader for term 4. Latest log index is 12.
-2017-04-03T08:14:13.250971500 2.461007s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Starting a new Raft election for term 4.
-2017-04-03T08:14:13.272069000 2.482182s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: This server is Raft leader for term 3. Latest log index is 10.
-2017-04-03T08:14:13.277167000 2.487389s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: Starting a new Raft election for term 3.
-2017-04-03T08:14:13.343892300 2.554118s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Starting a new Raft election for term 4.
-2017-04-03T08:14:13.498044300 2.708275s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Starting a new Raft election for term 2.
-2017-04-03T08:14:13.518179600 2.728592s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: This server is Raft leader for term 4. Latest log index is 11.
-2017-04-03T08:14:13.940494200 3.150337s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: This server is Raft leader for term 3. Latest log index is 12.
-2017-04-03T08:14:13.940494201 3.150565s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: This server is Raft leader for term 4. Latest log index is 10.
-2017-04-03T08:14:13.940494202 3.150650s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: This server is Raft leader for term 2. Latest log index is 7.
-2017-04-03T08:14:18.714784000 7.924993s info: Table b119938b-4883-44de-899b-2d8f288026a3: Starting a new Raft election for term 1.
-2017-04-03T08:14:18.714784001 7.925319s info: Table b119938b-4883-44de-899b-2d8f288026a3: Added replica on this server.
-2017-04-03T08:14:18.904925300 8.115285s info: Table 4a8778b6-b1f1-41c6-865f-8795150c5da6: Starting a new Raft election for term 1.
-2017-04-03T08:14:19.187796200 8.397725s info: Table 4a8778b6-b1f1-41c6-865f-8795150c5da6: Added replica on this server.
-2017-04-03T08:14:19.188802000 8.399574s info: Table cf9bb962-658c-4b12-b707-297953b54848: Starting a new Raft election for term 1.
-2017-04-03T08:14:19.189798000 8.399914s info: Table cf9bb962-658c-4b12-b707-297953b54848: Added replica on this server.
-2017-04-03T08:14:19.397330300 8.607596s info: Table b119938b-4883-44de-899b-2d8f288026a3: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-03T08:14:19.397330301 8.607848s info: Table 4a8778b6-b1f1-41c6-865f-8795150c5da6: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-03T08:14:19.397330302 8.607986s info: Table cf9bb962-658c-4b12-b707-297953b54848: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-03T08:14:26.683180300 15.893099s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: Starting a new Raft election for term 1.
-2017-04-03T08:14:26.683180301 15.893303s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: Added replica on this server.
-2017-04-03T08:14:26.804810900 16.015166s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: This server is Raft leader for term 1. Latest log index is 0.
-2017-04-03T08:21:11.306207400 420.516351s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: Configuration is changing.
-2017-04-03T08:55:27.887149800 2477.097740s notice: Server got Control-C; shutting down...
+2017-04-03T12:19:14.467041100 0.009183s notice: In recursion: removing file 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data\\tmp'
+2017-04-03T12:19:14.467541200 0.009672s warn: Trying to delete non-existent file 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data\\tmp'
+2017-04-03T12:19:14.486070200 0.028007s notice: Initializing directory C:\\xampp\\htdocs\\BossRant\\rethinkdb_data
+2017-04-03T12:19:14.491564100 0.033416s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data' did not already exist or is empty.)
+2017-04-03T12:19:14.491564101 0.033467s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T12:19:14.492101000 0.033862s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T12:19:14.492101001 0.033899s notice: Loading data from directory C:\\xampp\\htdocs\\BossRant\\rethinkdb_data
+2017-04-03T12:19:14.961627900 0.503499s info: Cache size is set to 200 MB
+2017-04-03T12:19:15.000068400 0.542195s notice: Listening for intracluster connections on port 14879
+2017-04-03T12:19:15.033055100 0.574797s notice: Listening for client driver connections on port 14880
+2017-04-03T12:19:15.033055101 0.574972s notice: Listening for administrative HTTP connections on port 14881
+2017-04-03T12:19:15.033055102 0.574989s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T12:19:15.033055103 0.575008s notice: Listening on driver address: 127.0.0.1
+2017-04-03T12:19:15.033055104 0.575010s notice: Listening on http address: 127.0.0.1
+2017-04-03T12:19:15.033055105 0.575013s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T12:19:15.033055106 0.575014s notice: Server ready, "Brian_PC_gcl" 8c842a38-d8ce-4359-a794-cad539d70fd6
+2017-04-03T12:19:16.310572500 1.852464s info: Table 8e91ce60-2581-4717-91ee-3262e41565b6: Starting a new Raft election for term 1.
+2017-04-03T12:19:16.311575600 1.853563s info: Table 8e91ce60-2581-4717-91ee-3262e41565b6: Added replica on this server.
+2017-04-03T12:19:16.361598700 1.903287s info: Table 1b156034-9843-48da-b499-b4b999a57ed4: Starting a new Raft election for term 1.
+2017-04-03T12:19:16.361598701 1.903311s info: Table b313cc2c-f24e-4de0-87ef-5a4a352ca7f0: Starting a new Raft election for term 1.
+2017-04-03T12:19:16.380685600 1.922387s info: Table 1b156034-9843-48da-b499-b4b999a57ed4: Added replica on this server.
+2017-04-03T12:19:16.380685601 1.922517s info: Table b313cc2c-f24e-4de0-87ef-5a4a352ca7f0: Added replica on this server.
+2017-04-03T12:19:16.391062600 1.932845s info: Table 8e91ce60-2581-4717-91ee-3262e41565b6: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T12:19:16.433147800 1.974993s info: Table 1b156034-9843-48da-b499-b4b999a57ed4: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T12:19:16.433147801 1.975040s info: Table b313cc2c-f24e-4de0-87ef-5a4a352ca7f0: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T12:19:18.465066600 4.007039s info: Table 42d7f369-0daf-470e-81ba-081a9f76438b: Starting a new Raft election for term 1.
+2017-04-03T12:19:18.465567000 4.007330s info: Table 42d7f369-0daf-470e-81ba-081a9f76438b: Added replica on this server.
+2017-04-03T12:19:18.490062800 4.031847s info: Table 42d7f369-0daf-470e-81ba-081a9f76438b: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T12:22:23.545062700 189.086936s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Starting a new Raft election for term 1.
+2017-04-03T12:22:23.545062701 189.087201s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Added replica on this server.
+2017-04-03T12:22:23.603079400 189.145006s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T12:22:24.440070600 189.982049s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Configuration is changing.
