@@ -101,3 +101,53 @@
 2017-04-02T21:11:07.096222100 7728.639103s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Configuration is changing.
 2017-04-02T22:21:49.875201600 11971.418386s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Configuration is changing.
 2017-04-02T22:22:45.442274900 12026.985430s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Configuration is changing.
+2017-04-03T03:29:22.282671900 0.019339s notice: In recursion: removing file 'C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data\\tmp'
+2017-04-03T03:29:22.283673300 0.020135s warn: Trying to delete non-existent file 'C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data\\tmp'
+2017-04-03T03:29:22.284674300 0.021209s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T03:29:22.284674301 0.021235s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T03:29:22.284674302 0.021247s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
+2017-04-03T03:29:22.300189100 0.036945s info: Cache size is set to 200 MB
+2017-04-03T03:29:22.304199800 0.040835s notice: Listening for intracluster connections on port 51065
+2017-04-03T03:29:22.679609200 0.416404s notice: Listening for client driver connections on port 51066
+2017-04-03T03:29:22.680109400 0.416800s notice: Listening for administrative HTTP connections on port 51067
+2017-04-03T03:29:22.680109401 0.416843s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T03:29:22.680109402 0.416845s notice: Listening on driver address: 127.0.0.1
+2017-04-03T03:29:22.680109403 0.416847s notice: Listening on http address: 127.0.0.1
+2017-04-03T03:29:22.680109404 0.416936s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T03:29:22.680109405 0.416939s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
+2017-04-03T03:34:18.924611500 0.020236s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T03:34:18.924611501 0.020376s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T03:34:18.924611502 0.020410s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
+2017-04-03T03:34:18.938682200 0.034075s info: Cache size is set to 200 MB
+2017-04-03T03:34:18.942184600 0.037669s notice: Listening for intracluster connections on port 51166
+2017-04-03T03:34:19.031770100 0.127628s notice: Listening for client driver connections on port 51167
+2017-04-03T03:34:19.032270600 0.127823s notice: Listening for administrative HTTP connections on port 51168
+2017-04-03T03:34:19.032270601 0.127876s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T03:34:19.032270602 0.127877s notice: Listening on driver address: 127.0.0.1
+2017-04-03T03:34:19.032270603 0.127878s notice: Listening on http address: 127.0.0.1
+2017-04-03T03:34:19.032270604 0.127879s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T03:34:19.032270605 0.127880s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
+2017-04-03T03:36:25.337012500 0.018283s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T03:36:25.337012501 0.018394s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T03:36:25.337012502 0.018412s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
+2017-04-03T03:36:25.347521800 0.029115s info: Cache size is set to 200 MB
+2017-04-03T03:36:25.350025400 0.031269s notice: Listening for intracluster connections on port 51222
+2017-04-03T03:36:25.426097100 0.107573s notice: Listening for client driver connections on port 51223
+2017-04-03T03:36:25.426597300 0.107822s notice: Listening for administrative HTTP connections on port 51224
+2017-04-03T03:36:25.426597301 0.107842s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T03:36:25.426597302 0.107843s notice: Listening on driver address: 127.0.0.1
+2017-04-03T03:36:25.426597303 0.107865s notice: Listening on http address: 127.0.0.1
+2017-04-03T03:36:25.426597304 0.107866s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T03:36:25.426597305 0.107867s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
+2017-04-03T03:43:34.420314900 0.016378s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T03:43:34.420815100 0.016469s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T03:43:34.420815101 0.016496s notice: Loading data from directory C:\\Users\\nhatm\\OneDrive\\Documents\\GitHub\\BossRant\\rethinkdb_data
+2017-04-03T03:43:34.431325100 0.027260s info: Cache size is set to 200 MB
+2017-04-03T03:43:34.433828000 0.029465s notice: Listening for intracluster connections on port 51323
+2017-04-03T03:43:34.516402800 0.112181s notice: Listening for client driver connections on port 51324
+2017-04-03T03:43:34.516402801 0.112366s notice: Listening for administrative HTTP connections on port 51325
+2017-04-03T03:43:34.516402802 0.112396s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T03:43:34.516402803 0.112397s notice: Listening on driver address: 127.0.0.1
+2017-04-03T03:43:34.516402804 0.112398s notice: Listening on http address: 127.0.0.1
+2017-04-03T03:43:34.516402805 0.112399s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T03:43:34.516402806 0.112400s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
