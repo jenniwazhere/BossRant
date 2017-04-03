@@ -53,7 +53,6 @@ Grading
 Requires:
 - RethinkDB
 - Bootstrap
-- 
 
 Install:
 - RethinkDB
