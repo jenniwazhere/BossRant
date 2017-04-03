@@ -75,6 +75,8 @@ const users = horizon('users');
                                 last_name: data['last_name'],
                                 email: data['emailAddress']
                             });
+                            //Return to sign-in screen once account is created
+                            window.location.href = '/signin.html';
                         } else {
                             //USERNAME IS TAKEN -- FORM WILL RESET
                             alert('USER ALREADY EXISTS');
