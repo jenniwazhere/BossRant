@@ -46,14 +46,24 @@ Grading
 - Appropriate use of available technologies
 - Innovation
 - Web design
-- Teamwork  
+- Teamwork
+
+-----------------About Our Project-----------------
+
+Overview:
+- BossRant provides users the forum to post about their jobs, managers, and/or bosses.
+- A way for employees to release stress and frustrations anonymously online.
+- Includes a launch page with basic information about the application.
+- A simple user login system that utilizes RethinkDB.
+- A user registration system with data validation.
+- A user profile with an updating feed with the latest posts from all users.
 
 -----------------Installation & Configuration-----------------
 
 Requires:
 - RethinkDB
+- Horizon
 - Bootstrap
-- 
 
 Install:
 - RethinkDB
@@ -65,7 +75,19 @@ Run:
 <br>	* Terminal command: hz init <folder_name>
 <br>	* Terminal command: hz serve --dev
 
+-----------------Features-----------------
+
+Current:
+- Anonymous posting onto the main page.
+- Vote tracking for all posts.
+
+Future:
+- Emoji tracking for each post.
+- Comments for each post.
+
 -----------------Documentation-----------------
 
 License:
 - This project was built using the Bootstrap framework.
+- The back end of this project was built using Horizon.
+- All corresponding third party applications follow their respective licenses.
