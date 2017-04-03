@@ -49,6 +49,7 @@ Grading
 - Teamwork  
 
 -----------------Installation & Configuration-----------------
+
 Requires:
 - RethinkDB
 - Bootstrap
