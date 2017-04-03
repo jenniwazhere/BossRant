@@ -35,36 +35,36 @@ Presentations
 
 Grading
 	Each of the following factors contributes up to 3 points to the final grade for the project:
-	- Quality of the presentation
-	- Completeness of the presentation
-	- Quality of documentation for installation and configuration
-	- Quality of documentation for users
-	- Project functionality
-	- Project scope
-	- Code quality
-	- Code maintainability
-	- Appropriate use of available technologies
-	- Innovation
-	- Web design
-	- Teamwork  
+- Quality of the presentation
+- Completeness of the presentation
+- Quality of documentation for installation and configuration
+- Quality of documentation for users
+- Project functionality
+- Project scope
+- Code quality
+- Code maintainability
+- Appropriate use of available technologies
+- Innovation
+- Web design
+- Teamwork  
 
 -----------------Installation & Configuration-----------------
 Requires:
-	- RethinkDB
-	- Bootstrap
-	- 
+- RethinkDB
+- Bootstrap
+- 
 
 Install:
-	- RethinkDB
-	- Horizon
-		* Terminal command: npm install -g horizon
+- RethinkDB
+- Horizon
+<br>	* Terminal command: npm install -g horizon
 
 Run:
-	- Horizon
-		* Terminal command: hz init <folder_name>
-		* Terminal command: hz serve --dev
+- Horizon
+<br>	* Terminal command: hz init <folder_name>
+<br>	* Terminal command: hz serve --dev
 
 -----------------Documentation-----------------
 
 License:
-	- This project was built using the Bootstrap framework.
+- This project was built using the Bootstrap framework.
