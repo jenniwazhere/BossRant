@@ -18,6 +18,10 @@ body {
     font-weight: 700
 }
 
+h2 {
+    text-align: center;
+}
+
 .text-muted {
     color: #777
 }
@@ -84,6 +88,15 @@ a.active, a:active, a:focus, a:hover {
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px
+}
+
+.btn-md {
+    color: #fff;
+    background-color: #4286f4;
+    border-color: #4286f4;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px 8px
 }
 
 .btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
