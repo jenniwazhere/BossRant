@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Forked from Agency Bootstrap Theme -->
+<!-- Forked from Agency Bootstrap Theme -->
 
 <head>
 
@@ -72,27 +72,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                  <h1>Log-in</h1>
+                    <h1>Log-in</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                  <form id="main-form" data-user-login="form">
-                      <div class="form-group">
-                          <label for="username"> UserName: </label>
-                          <input class="form-control" name="user" id="username" type="text" placeholder="Enter Username" autofocus required />
-                      </div>
-                      <div class="form-group">
-                          <label for="password"> Password: </label>
-                          <input class="form-control" name="pass" id="password" type="password" placeholder="Enter Password" required/>
-                      </div>
+                    <form id="main-form" data-user-login="form">
+                        <div class="form-group">
+                            <label for="username"> UserName: </label>
+                            <input class="form-control" name="user" id="username" type="text" placeholder="Enter Username" autofocus required />
+                        </div>
+                        <div class="form-group">
+                            <label for="password"> Password: </label>
+                            <input class="form-control" name="pass" id="password" type="password" placeholder="Enter Password" required/>
+                        </div>
                         <button type="submit" onclick="window.location.href='rants.html'" class="btn btn-default">Log-in</button>
                         <button type="button" onclick="window.location.href='signup.html'" class="btn btn-default">Sign-up</button>
-                  </form>
-              </div>
-          </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
     <footer>
         <div class="container">
@@ -140,10 +140,16 @@
 
     <!-- Horizon Scripts -->
     <script src="/horizon/horizon.js" charset="utf-8"></script>
-    <script>const horizon = Horizon({ authType: 'unauthenticated', host: 'localhost:8181' });</script>
+    <script>
+        const horizon = Horizon({
+            authType: 'unauthenticated',
+            host: 'localhost:8181'
+        });
+    </script>
 
     <!--<script src="scripts/validation.js" charset="utf-8"></script>-->
     <script src="scripts/formhandler.js" charset="utf-8"></script>
     <script src="scripts/main.js" charset="utf-8"></script>
-  </body>
-  </html>
+</body>
+
+</html>
