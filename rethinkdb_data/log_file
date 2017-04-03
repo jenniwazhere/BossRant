@@ -30,3 +30,39 @@
 2017-04-03T12:22:23.545062701 189.087201s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Added replica on this server.
 2017-04-03T12:22:23.603079400 189.145006s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: This server is Raft leader for term 1. Latest log index is 0.
 2017-04-03T12:22:24.440070600 189.982049s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Configuration is changing.
+2017-04-03T14:07:30.834929400 0.017586s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T14:07:30.834929401 0.017766s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T14:07:30.834929402 0.017811s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-03T14:07:30.837931500 0.021043s error: CreateFile failed: C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata: The system cannot find the file specified.
+2017-04-03T14:07:30.838936500 0.021253s error: Inaccessible database file: "C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata": Input/output error\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:11:50.048084000 0.021135s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T14:11:50.048084001 0.021279s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T14:11:50.048084002 0.021312s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-03T14:11:50.318187800 0.291417s info: Cache size is set to 200 MB
+2017-04-03T14:11:50.321189500 0.294330s notice: Listening for intracluster connections on port 2894
+2017-04-03T14:11:50.323191300 0.296822s notice: Listening for client driver connections on port 2895
+2017-04-03T14:11:50.324192000 0.297092s notice: Listening for administrative HTTP connections on port 2896
+2017-04-03T14:11:50.324192001 0.297146s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T14:11:50.324192002 0.297184s notice: Listening on driver address: 127.0.0.1
+2017-04-03T14:11:50.324192003 0.297186s notice: Listening on http address: 127.0.0.1
+2017-04-03T14:11:50.324192004 0.297193s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T14:11:50.324192005 0.297217s notice: Server ready, "Jenniwazhere_43s" 6cea76ca-6cf9-4bb0-94ef-c5723bc8e9f3
+2017-04-03T14:11:53.388800400 3.361741s info: Table c888decf-5a25-4d2f-89dc-46bb0d5faa22: Starting a new Raft election for term 1.
+2017-04-03T14:11:53.389807500 3.363185s info: Table c888decf-5a25-4d2f-89dc-46bb0d5faa22: Added replica on this server.
+2017-04-03T14:11:53.655416200 3.628434s info: Table be30f223-4905-4dd0-ac89-f44d8bdda45d: Starting a new Raft election for term 1.
+2017-04-03T14:11:53.655416201 3.628805s info: Table be30f223-4905-4dd0-ac89-f44d8bdda45d: Added replica on this server.
+2017-04-03T14:11:53.689461300 3.662809s info: Table 0bc7732e-9166-453b-a35f-0755a984f12f: Starting a new Raft election for term 1.
+2017-04-03T14:11:53.689461301 3.663095s info: Table 0bc7732e-9166-453b-a35f-0755a984f12f: Added replica on this server.
+2017-04-03T14:11:53.764247900 3.737777s info: Table c888decf-5a25-4d2f-89dc-46bb0d5faa22: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T14:11:53.828420500 3.801353s info: Table be30f223-4905-4dd0-ac89-f44d8bdda45d: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T14:11:53.828420501 3.801512s info: Table 0bc7732e-9166-453b-a35f-0755a984f12f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T14:11:57.443503400 7.416324s info: Table b557c9cd-045c-4436-9ec2-6fc77303e208: Starting a new Raft election for term 1.
+2017-04-03T14:11:57.443503401 7.416656s info: Table b557c9cd-045c-4436-9ec2-6fc77303e208: Added replica on this server.
+2017-04-03T14:11:57.574623200 7.548255s info: Table b557c9cd-045c-4436-9ec2-6fc77303e208: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T14:12:52.037501700 62.010389s info: Table b557c9cd-045c-4436-9ec2-6fc77303e208: Configuration is changing.
+2017-04-03T14:13:27.326411100 97.299237s info: Table c78d84fa-c75c-41bf-a934-9bce20682768: Starting a new Raft election for term 1.
+2017-04-03T14:13:27.327412700 97.300281s info: Table c78d84fa-c75c-41bf-a934-9bce20682768: Added replica on this server.
+2017-04-03T14:13:27.391959900 97.365093s info: Table c78d84fa-c75c-41bf-a934-9bce20682768: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T14:13:28.920814000 98.893595s info: Table c78d84fa-c75c-41bf-a934-9bce20682768: Configuration is changing.
+2017-04-03T14:41:17.894573900 1767.875175s notice: Server got Control-C; shutting down...
+2017-04-03T14:41:17.895568600 1767.875586s notice: Shutting down client connections...

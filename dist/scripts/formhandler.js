@@ -89,7 +89,7 @@ const users = horizon('users');
         });
 
     };
-    
+
     FormHandler.prototype.CheckCredentialsUserName = function(fn) {
         this.$formElement.on('input', '[name="user"]', function(event) {
             var user1 = $('#username').val();

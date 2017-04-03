@@ -60,13 +60,11 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#page-top">Post</a>
+                        <a class="page-scroll" href="#post">New Post</a>
                     </li>
+                    <!-- This does not actually log you out -->
                     <li>
-                        <a class="page-scroll" href="signin.html">Login</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="signup.html">Sign-up</a>
+                        <a class="page-scroll" href="index.html">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -75,24 +73,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Post Section -->
-    <section id="post">
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <form id="main-form" data-rant-post="form">
-                        <div class="form-group">
-                            <label for="rantPost">Post A New Rant</label>
-                            <textarea rows="8" columns="70" class="form-control" id="rant-post"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- Show post Section -->
     <section id="showpost">
         <div class="container">
             <div class="panel panel-default">
@@ -106,6 +87,37 @@
             </div>
         </div>
     </section>
+
+    <!-- Post Section -->
+    <section id="post">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form id="main-form" data-rant-post="form">
+                        <div class="form-group">
+                            <label for="rantPost">Post A New Rant</label>
+                            <textarea rows="8" columns="70" class="form-control" id="rant-post"></textarea>
+                        </div>  
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="showpost">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <table id="rants">
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
     <footer>
         <div class="container">
