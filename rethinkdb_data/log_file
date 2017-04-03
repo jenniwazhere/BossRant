@@ -30,6 +30,7 @@
 2017-04-03T12:22:23.545062701 189.087201s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Added replica on this server.
 2017-04-03T12:22:23.603079400 189.145006s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: This server is Raft leader for term 1. Latest log index is 0.
 2017-04-03T12:22:24.440070600 189.982049s info: Table d602cd9a-d989-4c19-9f62-88b096166b86: Configuration is changing.
+<<<<<<< Updated upstream
 2017-04-03T14:07:30.834929400 0.017586s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
 2017-04-03T14:07:30.834929401 0.017766s notice: Running on 6.2.9200 (Windows 8, Server 2012)
 2017-04-03T14:07:30.834929402 0.017811s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
@@ -66,3 +67,58 @@
 2017-04-03T14:13:28.920814000 98.893595s info: Table c78d84fa-c75c-41bf-a934-9bce20682768: Configuration is changing.
 2017-04-03T14:41:17.894573900 1767.875175s notice: Server got Control-C; shutting down...
 2017-04-03T14:41:17.895568600 1767.875586s notice: Shutting down client connections...
+=======
+2017-04-03T13:51:00.602188000 40.054981s notice: Recursively removing directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/tmp
+2017-04-03T13:51:00.607310000 40.060108s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T13:51:00.634366000 40.087167s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T13:51:00.634471000 40.087262s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T13:51:00.639698000 40.092490s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:21:17.644825000 40.034935s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:21:17.685085000 40.075189s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:21:17.685142000 40.075244s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:21:17.691503000 40.081605s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:24:18.365652000 40.104192s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:24:18.393921000 40.132463s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:24:18.394001000 40.132530s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:24:18.399647000 40.138178s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:39:01.925861000 40.102599s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:39:01.971107000 40.147840s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:39:01.971176000 40.147908s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:39:01.974940000 40.151673s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+>>>>>>> Stashed changes
+2017-04-03T14:45:02.416853000 40.059978s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:45:02.451114000 40.094230s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:45:02.451188000 40.094302s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:45:02.456536000 40.099652s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:48:21.605107000 40.052927s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:48:21.635186000 40.083008s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:48:21.635267000 40.083077s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:48:21.640669000 40.088480s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:49:13.599301000 40.048392s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:49:13.624278000 40.073365s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:49:13.624388000 40.073472s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:49:13.626433000 40.075517s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T14:54:56.550790000 40.057278s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T14:54:56.582375000 40.088845s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T14:54:56.582450000 40.088918s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T14:54:56.591954000 40.098424s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T15:02:01.325736000 40.035301s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T15:02:01.348803000 40.058360s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T15:02:01.348944000 40.058500s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T15:02:01.354202000 40.063759s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T15:05:23.839307000 40.041593s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T15:05:23.868886000 40.071163s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T15:05:23.868946000 40.071221s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T15:05:23.874331000 40.076608s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T15:08:21.382636000 40.067286s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T15:08:21.428741000 40.113386s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T15:08:21.428819000 40.113461s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T15:08:21.434249000 40.118893s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T15:14:54.470366000 40.068763s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T15:14:54.504009000 40.102410s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T15:14:54.504118000 40.102504s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T15:14:54.511362000 40.109750s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-03T16:35:45.235463000 40.119703s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T16:35:45.274173000 40.158406s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T16:35:45.274222000 40.158454s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T16:35:45.277996000 40.162229s error: Inaccessible database file: "/Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data/metadata": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
