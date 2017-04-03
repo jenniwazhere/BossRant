@@ -151,3 +151,49 @@
 2017-04-03T03:43:34.516402804 0.112398s notice: Listening on http address: 127.0.0.1
 2017-04-03T03:43:34.516402805 0.112399s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2017-04-03T03:43:34.516402806 0.112400s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
+2017-04-03T08:14:10.807519200 0.017487s notice: In recursion: removing file 'C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\tmp'
+2017-04-03T08:14:10.808519500 0.018378s warn: Trying to delete non-existent file 'C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\tmp'
+2017-04-03T08:14:10.809521500 0.019549s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-03T08:14:10.809521501 0.019604s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-03T08:14:10.809521502 0.019632s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-03T08:14:10.943772600 0.153665s info: Cache size is set to 200 MB
+2017-04-03T08:14:10.949299100 0.159185s notice: Listening for intracluster connections on port 19217
+2017-04-03T08:14:11.993110700 1.203817s notice: Listening for client driver connections on port 19218
+2017-04-03T08:14:11.994104100 1.204636s notice: Listening for administrative HTTP connections on port 19219
+2017-04-03T08:14:11.994104101 1.204701s notice: Listening on cluster address: 127.0.0.1
+2017-04-03T08:14:11.994104102 1.204812s notice: Listening on driver address: 127.0.0.1
+2017-04-03T08:14:11.994104103 1.204816s notice: Listening on http address: 127.0.0.1
+2017-04-03T08:14:11.994104104 1.204819s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T08:14:11.994104105 1.204823s notice: Server ready, "MrGeterson_PC_cki" 859c1080-5ff5-4ebe-86f6-dac08037888d
+2017-04-03T08:14:12.472322100 1.682322s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: Starting a new Raft election for term 3.
+2017-04-03T08:14:12.599913400 1.809944s info: Table 571b20e4-b740-4036-bfb4-d4834082a6ed: This server is Raft leader for term 3. Latest log index is 9.
+2017-04-03T08:14:12.683472400 1.893601s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: Starting a new Raft election for term 4.
+2017-04-03T08:14:12.773537300 1.983611s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: Starting a new Raft election for term 3.
+2017-04-03T08:14:12.826074300 2.036137s info: Table b374a65b-9757-45bb-8ad3-773fa475b535: This server is Raft leader for term 4. Latest log index is 13.
+2017-04-03T08:14:12.894125300 2.104218s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: Starting a new Raft election for term 4.
+2017-04-03T08:14:12.954168000 2.164914s info: Table 9c05030c-80e1-4377-8017-9a7e847063ea: This server is Raft leader for term 3. Latest log index is 8.
+2017-04-03T08:14:13.083267500 2.293510s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: Starting a new Raft election for term 3.
+2017-04-03T08:14:13.087270400 2.297350s info: Table 9ee4c33e-a413-44d0-bb0c-8f3e769636fd: This server is Raft leader for term 4. Latest log index is 12.
+2017-04-03T08:14:13.250971500 2.461007s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: Starting a new Raft election for term 4.
+2017-04-03T08:14:13.272069000 2.482182s info: Table 961cf693-b645-4a78-a0fe-2e8fb98717ac: This server is Raft leader for term 3. Latest log index is 10.
+2017-04-03T08:14:13.277167000 2.487389s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: Starting a new Raft election for term 3.
+2017-04-03T08:14:13.343892300 2.554118s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: Starting a new Raft election for term 4.
+2017-04-03T08:14:13.498044300 2.708275s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: Starting a new Raft election for term 2.
+2017-04-03T08:14:13.518179600 2.728592s info: Table e5c16ab6-8805-4acd-8956-0a0e4b35c60e: This server is Raft leader for term 4. Latest log index is 11.
+2017-04-03T08:14:13.940494200 3.150337s info: Table c39f993d-eca6-44fa-a170-9d951fa636f9: This server is Raft leader for term 3. Latest log index is 12.
+2017-04-03T08:14:13.940494201 3.150565s info: Table e6af3b18-04cc-4888-b30e-b04ed01ead12: This server is Raft leader for term 4. Latest log index is 10.
+2017-04-03T08:14:13.940494202 3.150650s info: Table b68de135-85f8-4b30-a367-11bcf73253d8: This server is Raft leader for term 2. Latest log index is 7.
+2017-04-03T08:14:18.714784000 7.924993s info: Table b119938b-4883-44de-899b-2d8f288026a3: Starting a new Raft election for term 1.
+2017-04-03T08:14:18.714784001 7.925319s info: Table b119938b-4883-44de-899b-2d8f288026a3: Added replica on this server.
+2017-04-03T08:14:18.904925300 8.115285s info: Table 4a8778b6-b1f1-41c6-865f-8795150c5da6: Starting a new Raft election for term 1.
+2017-04-03T08:14:19.187796200 8.397725s info: Table 4a8778b6-b1f1-41c6-865f-8795150c5da6: Added replica on this server.
+2017-04-03T08:14:19.188802000 8.399574s info: Table cf9bb962-658c-4b12-b707-297953b54848: Starting a new Raft election for term 1.
+2017-04-03T08:14:19.189798000 8.399914s info: Table cf9bb962-658c-4b12-b707-297953b54848: Added replica on this server.
+2017-04-03T08:14:19.397330300 8.607596s info: Table b119938b-4883-44de-899b-2d8f288026a3: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T08:14:19.397330301 8.607848s info: Table 4a8778b6-b1f1-41c6-865f-8795150c5da6: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T08:14:19.397330302 8.607986s info: Table cf9bb962-658c-4b12-b707-297953b54848: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T08:14:26.683180300 15.893099s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: Starting a new Raft election for term 1.
+2017-04-03T08:14:26.683180301 15.893303s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: Added replica on this server.
+2017-04-03T08:14:26.804810900 16.015166s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-03T08:21:11.306207400 420.516351s info: Table b05066e1-e426-4e35-9463-e5eb468ec026: Configuration is changing.
+2017-04-03T08:55:27.887149800 2477.097740s notice: Server got Control-C; shutting down...
