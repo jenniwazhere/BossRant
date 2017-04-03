@@ -34,7 +34,7 @@ const users = horizon('users');
 
 
 
-            /*********************************
+              /*********************************
              *           LOGIN PAGE STUFF     *
              **********************************/
             //CHECK IF ON LOGIN PAGE
@@ -49,7 +49,7 @@ const users = horizon('users');
                         }
                         else{
                           alert('LOGIN SUCCESSFUL');
-                          window.location.href = '/';
+                          window.location.href = '/rants.html';
                         }
                         //INSERT ELSE STATEMENT TO CHECK PASSWORD AND REDIRECT
                         //IF SUCCESSFULLY LOGGED IN
@@ -57,7 +57,7 @@ const users = horizon('users');
                 )
             }
 
-            /************************************
+             /************************************
              *         SIGN UP PAGE STUFF        *
              ************************************/
             if (window.location.pathname == '/signup.html') {
@@ -75,6 +75,7 @@ const users = horizon('users');
                                 last_name: data['last_name'],
                                 email: data['emailAddress']
                             });
+                            window.location.href = '/signin.html'
                         } else {
                             //USERNAME IS TAKEN -- FORM WILL RESET
                             alert('USER ALREADY EXISTS');
@@ -88,7 +89,7 @@ const users = horizon('users');
         });
 
     };
-
+    
     FormHandler.prototype.CheckCredentialsUserName = function(fn) {
         this.$formElement.on('input', '[name="user"]', function(event) {
             var user1 = $('#username').val();
