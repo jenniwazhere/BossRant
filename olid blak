@@ -1,0 +1,287 @@
+[33mcommit f0b5c0c3ea98fc0199801590cf7ebe42f7314791[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Mon Apr 3 16:53:42 2017 -0700
+
+    changed some links
+
+[33mcommit b78309d90eb4f10492f4f504557ccd7e6869b8fc[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Mon Apr 3 14:42:33 2017 -0700
+
+    Made changes to rants.html
+
+[33mcommit b22478611f15a41e3cef4707d6a3cc0ce6b5839c[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Mon Apr 3 13:21:45 2017 -0700
+
+    Fixed page redirect when signing in
+    
+    to allow for validation check on username
+
+[33mcommit 6ab065308fa3ce5158780955f1529fa653d0e13a[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Mon Apr 3 13:20:44 2017 -0700
+
+    Fixed page linking issues
+    
+    Fixed issue where "sign-in" bypassed validation check and went straight to rant.html
+
+[33mcommit 296d326518279f43e948085111422bf75b07e14b[m
+Merge: 99938d2 f5a604d
+Author: bnuckles <nuckles26@fullerton.edu>
+Date:   Mon Apr 3 12:29:03 2017 -0700
+
+    Merge branch 'Combined_Work_Horizons' of https://github.com/jenniwazhere/BossRant into Combined_Work_Horizons
+
+[33mcommit 99938d2cc4109b5da3c7195bb81109b34bac9583[m
+Merge: 8926b08 a6f2418
+Author: bnuckles <nuckles26@fullerton.edu>
+Date:   Mon Apr 3 12:28:57 2017 -0700
+
+    Fixed Post Feed
+    
+    Post feed should now fill with posts again,
+
+[33mcommit f5a604db5835869e90439df2192e0c596274b242[m
+Author: genelo <g_lo_27@hotmail.com>
+Date:   Mon Apr 3 12:28:00 2017 -0700
+
+    Add files via upload
+
+[33mcommit 57f2080474e2c773017a72795e7f072cdf6304ec[m
+Author: genelo <g_lo_27@hotmail.com>
+Date:   Mon Apr 3 12:27:23 2017 -0700
+
+    Delete image_gene.jpg.jpg
+
+[33mcommit 2ffb473cbbbbe1f80667eea4ea39621be2cb293c[m
+Author: genelo <g_lo_27@hotmail.com>
+Date:   Mon Apr 3 12:25:51 2017 -0700
+
+    Add files via upload
+
+[33mcommit a6f2418a4d8958d330e30b6096c826247d9ab254[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Mon Apr 3 09:07:42 2017 -0700
+
+    Resolved conflict
+
+[33mcommit 8926b08f67f789b6a0e472e978e7c7b3705e2bf5[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Mon Apr 3 08:57:13 2017 -0700
+
+    favicon
+
+[33mcommit c245dea151b32852f5069d953c723ea0cb29266d[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 06:07:01 2017 -0700
+
+    Added css styling and link.
+    
+    CSS style now matches the launch page and the rest of the app. POST link
+    will scroll to top of page inside rant.html and will focus on the post
+    text area.
+
+[33mcommit ba9d028f3c33f4419d6c62a4acf19232fc64d8cb[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 05:43:03 2017 -0700
+
+    Top Rant styles.
+
+[33mcommit a956618d0e4a11def84f17c5fb94ffc570a2f79f[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 05:14:30 2017 -0700
+
+    Image changes and About section added.
+    
+    Added the About section to preface the solution the app provides. Added
+    a GitHub section to link to our documentation. Fixed some links.
+
+[33mcommit a003ee24183086db942fd00cac2156e2264d8066[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 04:18:22 2017 -0700
+
+    Config changes. Revert if needed.
+
+[33mcommit 0e2268c069687e19b01dc696d6d1df3046574baf[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 03:00:09 2017 -0700
+
+    Added rethinkdb data and config files.
+
+[33mcommit 12f03a9a5d40b6f6d08a55edb68e4ab9397773c8[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 02:49:53 2017 -0700
+
+    Merge attempt of rant page.
+
+[33mcommit a9d31f8cc886fc528df1cf5dbf73e3a6c3cbf7f7[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 02:34:22 2017 -0700
+
+    Update.
+
+[33mcommit 3f07feb68cd86dff514157791e434c2349571856[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 02:33:55 2017 -0700
+
+    Top rant update.
+
+[33mcommit ef20830400de5f08c4c5642b33f02c7153934e36[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 02:05:19 2017 -0700
+
+    Background image darken and team images uploaded.
+
+[33mcommit 92d14f5c02eef5ea5e5cde8ab36b238af1114b57[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 01:46:39 2017 -0700
+
+    Tweaked team images, title, names.
+
+[33mcommit baa2a62f832136df86f443fbecaac1b72e69cfeb[m
+Author: Nhat Rocky Nguyen <nhatrockynguyen@gmail.com>
+Date:   Mon Apr 3 01:34:48 2017 -0700
+
+    Removed unused files and added team images.
+
+[33mcommit 13eeccf4b2f5c13a1af95e9abf2a5ee93b681e3e[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Mon Apr 3 01:18:17 2017 -0700
+
+    removed files
+
+[33mcommit a96f72e0d98e48d33ae454309ddf2a6b1a7b6a97[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Mon Apr 3 01:15:45 2017 -0700
+
+    Updated CSS for login and signup
+
+[33mcommit 05463e7397ede16d61f4f9f804b3e3d0ea6be4d4[m
+Author: Nhat Nguyen <nhatrockynguyen@gmail.com>
+Date:   Sun Apr 2 22:00:37 2017 -0700
+
+    Removed redundant files.
+
+[33mcommit 922df9752e2fea477d6b7ccc38d1866b830abe3b[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sun Apr 2 21:55:47 2017 -0700
+
+    Delete dist
+
+[33mcommit 59abb18fb61cc8b964e4e68e50c789fe8cefaeb7[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sun Apr 2 21:55:33 2017 -0700
+
+    Create dist
+
+[33mcommit 61cd175654e94f0f1985e8826779f0e68e490c27[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sun Apr 2 21:54:00 2017 -0700
+
+    Add files via upload
+
+[33mcommit 9f899c3d4d3a980b82adea9b2515201b37405c4c[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sun Apr 2 21:53:45 2017 -0700
+
+    Update readme.txt
+
+[33mcommit 93c97928f25b3cb64b95fa6c9b9ff928065e1cae[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sun Apr 2 21:47:19 2017 -0700
+
+    Create readme.txt
+
+[33mcommit fc8ed7bc50f447e3a71448d0cc53ce7fa3eb8488[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sun Apr 2 21:46:02 2017 -0700
+
+    Dist folder merge upload
+
+[33mcommit 9c0299c379cef1f5319c0dace1162722f126d889[m
+Author: Nhat Nguyen <nhatrockynguyen@gmail.com>
+Date:   Sun Apr 2 21:16:55 2017 -0700
+
+    README.md update.
+
+[33mcommit 518577a2d76ca4e09e508f3059c4391ccafee52d[m
+Author: Nhat Nguyen <nhatrockynguyen@gmail.com>
+Date:   Sun Apr 2 21:03:03 2017 -0700
+
+    Linked pages together.
+
+[33mcommit 6fdd02e6982ec76749ad779e5265008568f21afb[m
+Author: Nhat Nguyen <nhatrockynguyen@gmail.com>
+Date:   Sun Apr 2 20:53:13 2017 -0700
+
+    Spacing changes.
+
+[33mcommit bb3e51b90bdff5d4dab2a4979f2f67d4a86b1a09[m
+Author: Nhat Nguyen <nhatrockynguyen@gmail.com>
+Date:   Sun Apr 2 20:49:42 2017 -0700
+
+    Rename file & added launch page as index.html
+
+[33mcommit 4fb16f71017c76ad6f0e81d1bf88e4ba1606a674[m
+Merge: 77c07eb ef6bde2
+Author: Nhat Nguyen <nhatrockynguyen@gmail.com>
+Date:   Sun Apr 2 20:28:24 2017 -0700
+
+    Merge branch 'master' into Horizon-Implementations
+
+[33mcommit ef6bde2bcaf3cb0e590660277f9af0e389bc0e1c[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Sun Apr 2 13:56:38 2017 -0700
+
+    added style
+
+[33mcommit 77c07ebc1b3917e31cbe83358047724165a5a9ed[m
+Author: Micah Geertson <mgeertson@csu.fullerton.edu>
+Date:   Sat Apr 1 19:46:17 2017 -0700
+
+    Added RethinkDB Horizon Implementation
+    
+    This implementation will require modifications to both index.html, signup.html
+
+[33mcommit 2e1cbca9c4f1ea4c63260fc5cf711a4881600e00[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Sat Apr 1 18:26:55 2017 -0700
+
+    Put in some css into the index.html will put into a seperate .css later
+
+[33mcommit 91be66709e732bd66686b86c82ef564a453253aa[m
+Author: Sanikadesh198 <sanikadesh198@csu.fullerton.edu>
+Date:   Fri Mar 31 23:57:46 2017 -0700
+
+    Delete aa
+
+[33mcommit 64b00425f6690f78e47675e1c3e1d1e191610d36[m
+Author: Sanikadesh198 <sanikadesh198@csu.fullerton.edu>
+Date:   Fri Mar 31 23:57:25 2017 -0700
+
+    Add files via upload
+
+[33mcommit 277508929e5620d0b5cb5963f3b72c4e5ea5840c[m
+Author: Sanikadesh198 <sanikadesh198@csu.fullerton.edu>
+Date:   Fri Mar 31 23:56:59 2017 -0700
+
+    Create aa
+
+[33mcommit 6b5b7baeeed19f2df2e265f910660122b15b74cb[m
+Author: Sanikadesh198 <sanikadesh198@csu.fullerton.edu>
+Date:   Fri Mar 31 23:55:58 2017 -0700
+
+    Add files via upload
+
+[33mcommit d9b401ec2c924e0337350c68694c2967a6a9eb30[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Thu Mar 30 20:51:50 2017 -0700
+
+    requirements in the read.md file
+
+[33mcommit a549756c33e9afb18ce47f21e50ab779a2faa9f0[m
+Author: Jennifer Kang <jennikang@csu.fullerton.edu>
+Date:   Tue Mar 28 20:47:24 2017 -0700
+
+    Initial commit
