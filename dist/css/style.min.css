@@ -281,19 +281,25 @@ section h3.section-subheading {
         padding: 150px 0;
     }
     section#showpost {
-        padding: 110px 0 20px 0;
+        padding: 110px 0 10px 0;
     }
     section#post {
-        padding: 50px 0 20px 0;
+        padding: 50px 0 10px 0;
     }
 }
 
 section#showpost {
-    padding: 110px 0 20px 0;
+    padding: 110px 0 10px 0;
 }
 
 section#post {
-    padding: 50px 0 20px 0;
+    padding: 50px 0 10px 0;
+}
+
+section#feedrants {
+    display: flex;
+    align-content: center;
+    padding: 10px 0 10px 30px;
 }
 
 .service-heading {
