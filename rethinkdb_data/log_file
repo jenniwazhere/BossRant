@@ -263,3 +263,69 @@
 2017-04-03T17:36:23.448778000 42.027137s info: Table 0c1cbe2d-3079-4932-99cc-9dfdb508317a: This server is Raft leader for term 2. Latest log index is 5.
 2017-04-03T17:36:23.644836000 42.223196s info: Table f809fe53-98ab-416d-9232-5935a276383b: Starting a new Raft election for term 2.
 2017-04-03T17:36:23.657610000 42.235970s info: Table f809fe53-98ab-416d-9232-5935a276383b: This server is Raft leader for term 2. Latest log index is 4.
+2017-04-03T18:49:24.389338000 4422.338149s notice: Server got SIGINT from pid 58297, uid 501; shutting down...
+2017-04-03T18:49:24.395336000 4422.342963s notice: Shutting down client connections...
+2017-04-03T18:49:24.422893000 4422.370520s notice: All client connections closed.
+2017-04-03T18:49:24.422913000 4422.370539s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-03T18:49:24.606684000 4422.554312s notice: Storage engine shut down.
+2017-04-03T18:55:51.204239000 40.044791s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T18:55:51.252561000 40.093107s notice: Running on Darwin 16.4.0 x86_64
+2017-04-03T18:55:51.252627000 40.093172s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-03T18:55:51.336607000 40.177152s info: Cache size is set to 200 MB
+2017-04-03T18:55:51.336622000 40.177166s warn: Cache size does not leave much memory for server and query overhead (available memory: 273 MB).
+2017-04-03T18:55:51.338575000 40.179120s notice: Listening for intracluster connections on port 63361
+2017-04-03T18:55:51.536909000 40.377454s notice: Listening for client driver connections on port 63362
+2017-04-03T18:55:51.538110000 40.378656s notice: Listening for administrative HTTP connections on port 63363
+2017-04-03T18:55:51.538529000 40.379074s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-03T18:55:51.538535000 40.379079s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-03T18:55:51.538538000 40.379082s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-03T18:55:51.538541000 40.379085s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T18:55:51.538544000 40.379089s notice: Server ready, "Nhats_MacBook_Air_local_7ax" 2c90da71-1f6b-4533-a873-9a25e2fa729c
+2017-04-03T18:55:52.960199000 41.800664s info: Table ff9a8ed4-72e9-4e2b-b859-0e56ef62e7a6: Starting a new Raft election for term 3.
+2017-04-03T18:55:52.968723000 41.809188s info: Table ff9a8ed4-72e9-4e2b-b859-0e56ef62e7a6: This server is Raft leader for term 3. Latest log index is 11.
+2017-04-03T18:55:52.994284000 41.834750s info: Table f809fe53-98ab-416d-9232-5935a276383b: Starting a new Raft election for term 3.
+2017-04-03T18:55:53.004507000 41.844972s info: Table f809fe53-98ab-416d-9232-5935a276383b: This server is Raft leader for term 3. Latest log index is 8.
+2017-04-03T18:55:53.294396000 42.134861s info: Table 0c1cbe2d-3079-4932-99cc-9dfdb508317a: Starting a new Raft election for term 3.
+2017-04-03T18:55:53.333915000 42.174380s info: Table 0c1cbe2d-3079-4932-99cc-9dfdb508317a: This server is Raft leader for term 3. Latest log index is 11.
+2017-04-03T18:55:53.406378000 42.246842s info: Table 048cafad-67e6-4fcd-9f13-a9d808fe3610: Starting a new Raft election for term 3.
+2017-04-03T18:55:53.432498000 42.272963s info: Table 0d00bdaa-d53c-4496-a5d7-31ad65bc2162: Starting a new Raft election for term 3.
+2017-04-03T18:55:53.440500000 42.280965s info: Table 048cafad-67e6-4fcd-9f13-a9d808fe3610: This server is Raft leader for term 3. Latest log index is 8.
+2017-04-03T18:55:53.449299000 42.289764s info: Table 0d00bdaa-d53c-4496-a5d7-31ad65bc2162: This server is Raft leader for term 3. Latest log index is 9.
+2017-04-03T20:43:32.249806000 3315.475719s notice: Server got SIGINT from pid 58297, uid 501; shutting down...
+2017-04-03T20:43:32.258035000 3315.483931s notice: Shutting down client connections...
+2017-04-03T20:43:32.308878000 3315.534775s notice: All client connections closed.
+2017-04-03T20:43:32.308911000 3315.534806s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-03T20:43:32.319499000 3315.545395s error: Error in src/rdb_protocol/artificial_table/cfeed_backend.cc at line 122:
+2017-04-03T20:43:32.319564000 3315.545459s error: Guarantee failed: [machinery->can_be_removed()] 
+2017-04-03T20:43:32.319587000 3315.545482s error: Backtrace:
+2017-04-03T20:43:32.326738000 3315.552635s error: Mon Apr  3 20:43:32 2017\n\n1 [0x10644d834]: 0   rethinkdb                           0x000000010644d834 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP17repli_timestamp_t + 548 at 0x10644d834 ()\n2 [0x105ecf3ec]: 0   rethinkdb                           0x0000000105ecf3ec _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 18892 at 0x105ecf3ec ()\n3 [0x105ed0707]: 0   rethinkdb                           0x0000000105ed0707 _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 23783 at 0x105ed0707 ()\n4 [0x105ecef30]: 0   rethinkdb                           0x0000000105ecef30 _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 17680 at 0x105ecef30 ()\n5 [0x1061cad76]: 0   rethinkdb                           0x00000001061cad76 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP13name_string_t + 13750 at 0x1061cad76 ()\n6 [0x106216e96]: 0   rethinkdb                           0x0000000106216e96 _ZNK4utf810iterator_tIPKcE17error_explanationEv + 178086 at 0x106216e96 ()\n7 [0x1060a426c]: 0   rethinkdb                           0x00000001060a426c _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP29server_config_business_card_t + 121980 at 0x1060a426c ()\n8 [0x1060a43be]: 0   rethinkdb                           0x00000001060a43be _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP29server_config_business_card_t + 122318 at 0x1060a43be ()\n9 [0x105fc0032]: 0   rethinkdb                           0x0000000105fc0032 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 266882 at 0x105fc0032 ()\n10 [0x105fbb9db]: 0   rethinkdb                           0x0000000105fbb9db _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 248875 at 0x105fbb9db ()\n11 [0x105fbd8f3]: 0   rethinkdb                           0x0000000105fbd8f3 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 256835 at 0x105fbd8f3 ()\n12 [0x105f8c11c]: 0   rethinkdb                           0x0000000105f8c11c _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 54124 at 0x105f8c11c ()\n13 [0x105f8c79e]: 0   rethinkdb                           0x0000000105f8c79e _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 55790 at 0x105f8c79e ()\n14 [0x105fabdc4]: 0   rethinkdb                           0x0000000105fabdc4 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 184340 at 0x105fabdc4 ()\n15 [0x105ecaa38]: 0   rethinkdb                           0x0000000105ecaa38 _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 24 at 0x105ecaa38 ()\n16 [0x105ec5af5]: 0   rethinkdb                           0x0000000105ec5af5 _ZN8signal_t5pulseEv + 7973 at 0x105ec5af5 ()
+2017-04-03T20:43:32.327556000 3315.553452s error: Exiting.
+2017-04-03T20:43:32.451738000 3315.677634s notice: Storage engine shut down.
+2017-04-05T17:28:18.287284000 40.096436s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-05T17:28:18.319373000 40.128518s notice: Running on Darwin 16.4.0 x86_64
+2017-04-05T17:28:18.319439000 40.128582s notice: Loading data from directory /Users/rockylikespocky/front-end-dev-book/BossRant/rethinkdb_data
+2017-04-05T17:28:18.393185000 40.202330s info: Cache size is set to 200 MB
+2017-04-05T17:28:18.393199000 40.202342s warn: Cache size does not leave much memory for server and query overhead (available memory: 237 MB).
+2017-04-05T17:28:18.398760000 40.207904s notice: Listening for intracluster connections on port 64173
+2017-04-05T17:28:18.554015000 40.363159s notice: Listening for client driver connections on port 64174
+2017-04-05T17:28:18.554303000 40.363447s notice: Listening for administrative HTTP connections on port 64175
+2017-04-05T17:28:18.554388000 40.363531s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-05T17:28:18.554392000 40.363535s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-05T17:28:18.554395000 40.363538s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-05T17:28:18.554398000 40.363541s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-05T17:28:18.554401000 40.363544s notice: Server ready, "Nhats_MacBook_Air_local_7ax" 2c90da71-1f6b-4533-a873-9a25e2fa729c
+2017-04-05T17:28:19.583364000 41.392431s info: Table 0d00bdaa-d53c-4496-a5d7-31ad65bc2162: Starting a new Raft election for term 4.
+2017-04-05T17:28:19.609112000 41.418179s info: Table 0d00bdaa-d53c-4496-a5d7-31ad65bc2162: This server is Raft leader for term 4. Latest log index is 13.
+2017-04-05T17:28:19.817170000 41.626237s info: Table 0c1cbe2d-3079-4932-99cc-9dfdb508317a: Starting a new Raft election for term 4.
+2017-04-05T17:28:19.849770000 41.658837s info: Table 0c1cbe2d-3079-4932-99cc-9dfdb508317a: This server is Raft leader for term 4. Latest log index is 16.
+2017-04-05T17:28:20.177501000 41.986568s info: Table ff9a8ed4-72e9-4e2b-b859-0e56ef62e7a6: Starting a new Raft election for term 4.
+2017-04-05T17:28:20.210458000 42.019525s info: Table ff9a8ed4-72e9-4e2b-b859-0e56ef62e7a6: This server is Raft leader for term 4. Latest log index is 17.
+2017-04-05T17:28:20.374119000 42.183186s info: Table 048cafad-67e6-4fcd-9f13-a9d808fe3610: Starting a new Raft election for term 4.
+2017-04-05T17:28:20.378007000 42.187074s info: Table f809fe53-98ab-416d-9232-5935a276383b: Starting a new Raft election for term 4.
+2017-04-05T17:28:20.390356000 42.199423s info: Table 048cafad-67e6-4fcd-9f13-a9d808fe3610: This server is Raft leader for term 4. Latest log index is 12.
+2017-04-05T17:28:20.400104000 42.209172s info: Table f809fe53-98ab-416d-9232-5935a276383b: This server is Raft leader for term 4. Latest log index is 12.
+2017-04-05T17:35:33.176887000 474.962868s notice: Server got SIGINT from pid 58297, uid 501; shutting down...
+2017-04-05T17:35:33.178125000 474.964093s notice: Shutting down client connections...
+2017-04-05T17:35:33.182101000 474.968069s notice: All client connections closed.
+2017-04-05T17:35:33.182158000 474.968125s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-05T17:35:33.216493000 475.002460s notice: Storage engine shut down.
