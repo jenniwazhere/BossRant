@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2017-04-03T12:19:14.467041100 0.009183s notice: In recursion: removing file 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data\\tmp'
 2017-04-03T12:19:14.467541200 0.009672s warn: Trying to delete non-existent file 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data\\tmp'
 2017-04-03T12:19:14.486070200 0.028007s notice: Initializing directory C:\\xampp\\htdocs\\BossRant\\rethinkdb_data
@@ -329,3 +330,38 @@
 2017-04-05T17:35:33.182101000 474.968069s notice: All client connections closed.
 2017-04-05T17:35:33.182158000 474.968125s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2017-04-05T17:35:33.216493000 475.002460s notice: Storage engine shut down.
+=======
+2017-04-06T18:13:10.204089100 0.009428s notice: In recursion: removing file 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data\\tmp'
+2017-04-06T18:13:10.204589200 0.009915s warn: Trying to delete non-existent file 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data\\tmp'
+2017-04-06T18:13:10.230490400 0.035567s notice: Initializing directory C:\\xampp\\htdocs\\BossRant\\rethinkdb_data
+2017-04-06T18:13:10.235982500 0.040976s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\xampp\\htdocs\\BossRant\\rethinkdb_data' did not already exist or is empty.)
+2017-04-06T18:13:10.235982501 0.041034s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-06T18:13:10.236442700 0.041446s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-06T18:13:10.236442701 0.041481s notice: Loading data from directory C:\\xampp\\htdocs\\BossRant\\rethinkdb_data
+2017-04-06T18:13:10.814920200 0.620315s info: Cache size is set to 200 MB
+2017-04-06T18:13:10.869492400 0.674674s notice: Listening for intracluster connections on port 53523
+2017-04-06T18:13:10.910971900 0.716185s notice: Listening for client driver connections on port 53524
+2017-04-06T18:13:10.910971901 0.716358s notice: Listening for administrative HTTP connections on port 53525
+2017-04-06T18:13:10.910971902 0.716375s notice: Listening on cluster address: 127.0.0.1
+2017-04-06T18:13:10.910971903 0.716398s notice: Listening on driver address: 127.0.0.1
+2017-04-06T18:13:10.910971904 0.716399s notice: Listening on http address: 127.0.0.1
+2017-04-06T18:13:10.910971905 0.716403s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-06T18:13:10.910971906 0.716404s notice: Server ready, "Brian_PC_m1i" f6e20287-8b61-4b60-95a5-909266a964ff
+2017-04-06T18:13:12.415341300 2.220665s info: Table 4a029836-722f-46a7-8cec-64e7ff8206cc: Starting a new Raft election for term 1.
+2017-04-06T18:13:12.415842300 2.221137s info: Table 4a029836-722f-46a7-8cec-64e7ff8206cc: Added replica on this server.
+2017-04-06T18:13:12.417898200 2.223218s info: Table 0bde87da-21d3-4577-8aa4-f9823c611544: Starting a new Raft election for term 1.
+2017-04-06T18:13:12.418398900 2.223386s info: Table 0bde87da-21d3-4577-8aa4-f9823c611544: Added replica on this server.
+2017-04-06T18:13:12.418398901 2.223389s info: Table 2f685004-ca15-422d-8417-efddb4fae4bc: Starting a new Raft election for term 1.
+2017-04-06T18:13:12.418398902 2.223512s info: Table 2f685004-ca15-422d-8417-efddb4fae4bc: Added replica on this server.
+2017-04-06T18:13:12.468945100 2.274192s info: Table 4a029836-722f-46a7-8cec-64e7ff8206cc: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-06T18:13:12.468945101 2.274252s info: Table 0bde87da-21d3-4577-8aa4-f9823c611544: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-06T18:13:12.468945102 2.274281s info: Table 2f685004-ca15-422d-8417-efddb4fae4bc: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-06T18:13:14.229987200 4.035335s info: Table 7615d124-6c24-409d-be95-0eeb38cfbff3: Starting a new Raft election for term 1.
+2017-04-06T18:13:14.230487900 4.035469s info: Table 7615d124-6c24-409d-be95-0eeb38cfbff3: Added replica on this server.
+2017-04-06T18:13:14.275450100 4.080789s info: Table 7615d124-6c24-409d-be95-0eeb38cfbff3: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-06T18:13:38.063437600 27.868784s info: Table 7615d124-6c24-409d-be95-0eeb38cfbff3: Configuration is changing.
+2017-04-06T18:14:07.128438500 56.933592s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: Starting a new Raft election for term 1.
+2017-04-06T18:14:07.128938600 56.933886s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: Added replica on this server.
+2017-04-06T18:14:07.169949000 56.975119s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-06T18:14:08.346418400 58.151787s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: Configuration is changing.
+>>>>>>> origin/Combined_Work_Horizons
