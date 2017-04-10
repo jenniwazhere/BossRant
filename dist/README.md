@@ -7,7 +7,6 @@ Project 1 - Spring 2017
 Use client-side JavaScript, AJAX, and Horizon  to build one of the applications listed below.  You may use any available third-party Web Service APIs, libraries, or modules, provided that you comply with the terms of their licenses.
 Projects
 
-
 Build a site where...
 - Parents can share embarrassing baby pictures with their children’s potential dates
 - Neighbors can shame other neighbors for their pets’ and / or children’s bad behavior
@@ -46,17 +45,21 @@ Grading
 - Appropriate use of available technologies
 - Innovation
 - Web design
-- Teamwork  
+- Teamwork
 
 -----------------Installation & Configuration-----------------
 
 Requires:
-- RethinkDB
 - Bootstrap
+- JavaScript
+- Horizon
+- RethinkDB
 
 Install:
 - RethinkDB
+<br>	* Link: https://rethinkdb.com/
 - Horizon
+<br>	* Link: https://horizon.io/
 <br>	* Terminal command: npm install -g horizon
 
 Run:
@@ -64,7 +67,19 @@ Run:
 <br>	* Terminal command: hz init <folder_name>
 <br>	* Terminal command: hz serve --dev
 
------------------Documentation-----------------
+-----------------User Documentation-----------------
+
+Use:
+- Open Terminal and navigate to project root folder
+- Run command: hz serve --dev
+- Copy address printed on Terminal into Browser window
+- Navigate web app using navigation bar and links
+
+-----------------Resource Documentation-----------------
+
+Third-Party Resources Used:
+- Single Page Navigation: https://github.com/davist11/jQuery-One-Page-Nav
+- Theme Inspiration: https://github.com/BlackrockDigital/startbootstrap-creative
 
 License:
-- This project was built using the Bootstrap framework.
+- Resources for this project use the MIT License included in project files.

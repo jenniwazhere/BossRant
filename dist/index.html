@@ -105,7 +105,8 @@
             <div class="row text-center">
                 <div class="col-lg-12 text-center">
                     <p class="text-muted">Our web app provides anonymous posting for employees. <br> Freely share your thoughts, ideas, and frustrations.</p>
-                    <br><h3>Reprecussions? None.</h3>
+                    <br>
+                    <h3>Reprecussions? None.</h3>
                 </div>
             </div>
         </div>
@@ -421,7 +422,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-lg-12">
-                        <a href="https://github.com/jenniwazhere/BossRant/blob/master/dist/README.md" target="_blank"><i class="fa fa-github text-primary"></i></a>
+                    <a href="https://github.com/jenniwazhere/BossRant/blob/master/dist/README.md" target="_blank"><i class="fa fa-github text-primary"></i></a>
                     <p class="text-muted"><br>Check out our installation and documentation.</p>
                 </div>
             </div>
@@ -473,6 +474,7 @@
         </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
         <div class="container">
             <div class="row">
@@ -491,9 +493,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a href="privacy.html">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="termsOfUse.html">Terms of Use</a>
                         </li>
                     </ul>
                 </div>
@@ -512,14 +514,18 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
     <!-- Horizon Scripts -->
     <script src="/horizon/horizon.js" charset="utf-8"></script>
-    <script>const horizon = Horizon({ authType: 'unauthenticated', host: 'localhost:8181' });</script>
+    <script>
+        const horizon = Horizon({
+            authType: 'unauthenticated',
+            host: 'localhost:8181'
+        });
+    </script>
 
     <!--<script src="scripts/validation.js" charset="utf-8"></script>-->
     <script src="scripts/formhandler.js" charset="utf-8"></script>
