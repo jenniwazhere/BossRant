@@ -80,6 +80,8 @@ Use:
 Third-Party Resources Used:
 - Single Page Navigation: https://github.com/davist11/jQuery-One-Page-Nav
 - Theme Inspiration: https://github.com/BlackrockDigital/startbootstrap-creative
+- Stock Images: https://stocksnap.io/
 
 License:
-- Resources for this project use the MIT License included in project files.
+- Stock images in this project fall under the Creative Commons License.
+- Code resources for this project use the MIT License included in project files.
