@@ -5,7 +5,7 @@ CPSC 473 - Web Front-End Engineering for Internet Applications
 -----------------Team Information-----------------
 
 Project Team: 3
-<br>Team Members:
+<br><br>Team Members:
 <br>1.)	Micah Geertson - Micahgeertson@gmail.com
 <br>2.)	Jennifer Kang - Jennikang@csu.fullerton.edu
 <br>3.)	Nhat “Rocky” Nguyen - Nnguyen383@csu.fullerton.edu
