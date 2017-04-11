@@ -77,20 +77,21 @@
     <!-- Show post Section -->
     <section id="showpost">
         <div class="container">
-          <h2>POSTS</h2>
+            <h2>POSTS</h2>
             <div class="panel panel-default">
                 <div class="panel-body">
-                  <div class="rant-container">
+                    <div class="rant-container">
 
-                  </div>
+                    </div>
 
                     <!-- Rating Buttons -->
-                    <form>
+                     <!-- <form>
                         <input class="btn btn-md" type="button" onclick="incrementValueRough()" value="That's Rough" />
                         <input type="text" id="numberA" value="0" />
                         <input class="btn btn-md" type="button" onclick="incrementValueDisserve()" value="You deserve it" />
                         <input type="text" id="numberD" value="0" />
-                    </form>
+                    </form> -->
+
                 </div>
             </div>
         </div>
@@ -107,6 +108,19 @@
                           he said I had to come into work or I was fired. My boss f***ing sucks.</text>
                     <i class="fa fa-quote-right text-primary fa-3x" aria-hidden="true"></i>
                 </div>
+
+                  <!-- <form>
+                     <input class="btn btn-md" type="button" onclick="incrementValueRough()" value="That's Rough" />
+                     <input type="text" id="numberA" value="0" />
+                     <input class="btn btn-md" type="button" onclick="incrementValueDisserve()" value="You deserve it" />
+                     <input type="text" id="numberD" value="0" />
+                 </form> -->
+
+                 <div class="likeBtn" align="left">
+                     <button>Like</button>
+                     <span class="count">0</span>
+                 </div>
+
             </div>
             <br><br>
             <div class="row text-center my-rant">
@@ -116,6 +130,12 @@
                       My boss wanted me to assist him with stealing a $2,800 laptop <br>
                       for his daughter to take to college so he could save some money.</text>
                     <i class="fa fa-quote-right text-primary fa-3x" aria-hidden="true"></i>
+
+                    <div class="likeBtn" align="left">
+                        <button>Like</button>
+                        <span class="count">0</span>
+                    </div>
+
                 </div>
             </div>
             <br><br>
@@ -128,6 +148,12 @@
                       <br> she snapped and lectured me about how I needed to ‘plan’ my ‘vacation’ better.
                       I quit on the spot. </text>
                     <i class="fa fa-quote-right text-primary fa-3x" aria-hidden="true"></i>
+
+                    <div class="likeBtn" align="left">
+                        <button>Like</button>
+                        <span class="count">0</span>
+                    </div>
+
                 </div>
             </div>
             <br><br>
@@ -137,7 +163,7 @@
     <!-- Post Section -->
     <section id="post">
         <div class="container">
-          <h2>NEW POST</h2>
+            <h2>NEW POST</h2>
             <div class="panel panel-default">
                 <div class="panel-body">
                     <form id="main-form" data-rant-post="form">
@@ -158,7 +184,6 @@
                 <div class="panel-body">
                     <table id="rants">
                         <tbody>
-
                         </tbody>
                     </table>
                 </div>
@@ -207,8 +232,6 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
-<!-- Increment the Values of the Buttons -->
-    <script src="js/java.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
@@ -229,6 +252,7 @@
     <script src="scripts/fillposts.js"></script>
     <script src="scripts/posthandler.js"></script>
     <script src="scripts/rants.js"></script>
+    <script src="js/java.js"></script>
 
     <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>

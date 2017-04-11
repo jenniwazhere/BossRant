@@ -31,3 +31,51 @@
 2017-04-06T18:14:07.128938600 56.933886s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: Added replica on this server.
 2017-04-06T18:14:07.169949000 56.975119s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: This server is Raft leader for term 1. Latest log index is 0.
 2017-04-06T18:14:08.346418400 58.151787s info: Table f040eb12-c13e-494e-9f4d-af161bd57366: Configuration is changing.
+2017-04-10T13:29:04.242424900 0.101439s notice: In recursion: removing file 'C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\tmp'
+2017-04-10T13:29:04.266439800 0.125530s warn: Trying to delete non-existent file 'C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\tmp'
+2017-04-10T13:29:04.269444500 0.128097s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-10T13:29:04.269444501 0.128180s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-10T13:29:04.269444502 0.128224s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-10T13:29:04.314975200 0.174011s error: CreateFile failed: C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata: The system cannot find the file specified.
+2017-04-10T13:29:04.315475600 0.174462s error: Inaccessible database file: "C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata": Input/output error\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-10T13:30:26.303667600 0.059254s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-10T13:30:26.303667601 0.059434s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-10T13:30:26.303667602 0.059475s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-10T13:30:26.307170500 0.062707s error: CreateFile failed: C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata: The system cannot find the file specified.
+2017-04-10T13:30:26.307170501 0.062927s error: Inaccessible database file: "C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata": Input/output error\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-10T13:31:14.070874200 0.024285s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-10T13:31:14.070874201 0.024447s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-10T13:31:14.070874202 0.024505s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-10T13:31:14.075377800 0.028814s error: CreateFile failed: C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata: The system cannot find the file specified.
+2017-04-10T13:31:14.075377801 0.029108s error: Inaccessible database file: "C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data\\metadata": Input/output error\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2017-04-10T13:35:23.446407600 0.022608s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-10T13:35:23.446407601 0.022775s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-10T13:35:23.446407602 0.022820s notice: Loading data from directory C:\\Users\\Jenniwazhere\\Desktop\\BossRant\\rethinkdb_data
+2017-04-10T13:35:23.760632900 0.336813s info: Cache size is set to 200 MB
+2017-04-10T13:35:23.878215300 0.454510s notice: Listening for intracluster connections on port 1968
+2017-04-10T13:35:24.001302900 0.577550s notice: Listening for client driver connections on port 1969
+2017-04-10T13:35:24.001802400 0.578034s notice: Listening for administrative HTTP connections on port 1970
+2017-04-10T13:35:24.001802401 0.578180s notice: Listening on cluster address: 127.0.0.1
+2017-04-10T13:35:24.001802402 0.578184s notice: Listening on driver address: 127.0.0.1
+2017-04-10T13:35:24.001802403 0.578194s notice: Listening on http address: 127.0.0.1
+2017-04-10T13:35:24.001802404 0.578197s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-10T13:35:24.001802405 0.578229s notice: Server ready, "Jenniwazhere_43s" 6cea76ca-6cf9-4bb0-94ef-c5723bc8e9f3
+2017-04-10T13:35:27.392720300 3.969160s info: Table 526e2cca-1f3c-4250-bd9e-d405638dd31b: Starting a new Raft election for term 1.
+2017-04-10T13:35:27.433120000 4.009447s info: Table 526e2cca-1f3c-4250-bd9e-d405638dd31b: Added replica on this server.
+2017-04-10T13:35:27.550188300 4.126455s info: Table cad98159-18cd-45d6-a023-a6f8f8217729: Starting a new Raft election for term 1.
+2017-04-10T13:35:27.550188301 4.126507s info: Table 32c3e2ff-f643-4084-94c1-ce5fce20f3b4: Starting a new Raft election for term 1.
+2017-04-10T13:35:27.594240600 4.170589s info: Table cad98159-18cd-45d6-a023-a6f8f8217729: Added replica on this server.
+2017-04-10T13:35:27.594719100 4.170829s info: Table 32c3e2ff-f643-4084-94c1-ce5fce20f3b4: Added replica on this server.
+2017-04-10T13:35:27.636749000 4.213041s info: Table 526e2cca-1f3c-4250-bd9e-d405638dd31b: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-10T13:35:27.736322900 4.312686s info: Table cad98159-18cd-45d6-a023-a6f8f8217729: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-10T13:35:27.736820700 4.312806s info: Table 32c3e2ff-f643-4084-94c1-ce5fce20f3b4: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-10T13:35:31.511145600 8.087357s info: Table 415ea9c8-0fdd-4490-b11c-42441be1a65a: Starting a new Raft election for term 1.
+2017-04-10T13:35:31.511640800 8.087850s info: Table 415ea9c8-0fdd-4490-b11c-42441be1a65a: Added replica on this server.
+2017-04-10T13:35:31.610210900 8.186196s info: Table 415ea9c8-0fdd-4490-b11c-42441be1a65a: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-10T13:35:52.976625900 29.552691s info: Table 415ea9c8-0fdd-4490-b11c-42441be1a65a: Configuration is changing.
+2017-04-10T13:36:20.450508000 57.026868s info: Table bfcace6c-b68a-4bb6-ad8b-ce4ab6e9985e: Starting a new Raft election for term 1.
+2017-04-10T13:36:20.451508300 57.027924s info: Table bfcace6c-b68a-4bb6-ad8b-ce4ab6e9985e: Added replica on this server.
+2017-04-10T13:36:20.546074700 57.122288s info: Table bfcace6c-b68a-4bb6-ad8b-ce4ab6e9985e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-10T13:36:22.037638600 58.613918s info: Table bfcace6c-b68a-4bb6-ad8b-ce4ab6e9985e: Configuration is changing.
+2017-04-10T20:55:05.096260200 26403.035034s notice: Server got Control-C; shutting down...
+2017-04-10T20:55:05.157341700 26403.096102s notice: Shutting down client connections...

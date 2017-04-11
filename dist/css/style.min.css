@@ -90,7 +90,7 @@ a.active, a:active, a:focus, a:hover {
     padding: 20px 40px
 }
 
-.btn-md {
+.btn-md, .button {
     color: #fff;
     background-color: #4286f4;
     border-color: #4286f4;

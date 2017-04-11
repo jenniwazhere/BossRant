@@ -15,8 +15,12 @@ function populatePosts(result) {
     var startQuote = document.createElement('i');
     var endQuote = document.createElement('i');
     var divText = document.createElement('text');
+    var form = document.createElement("form");
+    var button = document.createElement("button");
+    var span = document.createElement("span");
     var linebreak1 = document.createElement('br')
     var linebreak2 = document.createElement('br')
+    var buttondiv = document.createElement("div");
 
     newDivCenter.className = 'row text-center my-rant';
     newDiv.className = 'col-12 text-center';
@@ -26,10 +30,17 @@ function populatePosts(result) {
     endQuote.ariaHidden = 'true';
     divText.innerHTML = result[i].text;
     divText.className = 'rant-text';
+    span.className = "count";
+    span.innerHTML = '0';
+    buttondiv.className = "likeBtn";
+    button.innerHTML = "like";
 
     newDiv.appendChild(startQuote);
     newDiv.appendChild(divText);
     newDiv.appendChild(endQuote);
+    buttondiv.appendChild(button);
+    buttondiv.appendChild(span);
+    newDiv.appendChild(buttondiv);
     newDivCenter.appendChild(newDiv);
     $('#feedrants > .container').append(newDivCenter);
     $('#feedrants > .container').append(linebreak1);
