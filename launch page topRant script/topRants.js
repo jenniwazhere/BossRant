@@ -1,5 +1,5 @@
 var $ = window.jQuery;
-//Create "users" database
+//Create "rants" database
 const users = horizon('rants');
 
 function populateTop(result) {
