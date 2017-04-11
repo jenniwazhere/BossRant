@@ -2,11 +2,62 @@
 
 CPSC 473 - Web Front-End Engineering for Internet Applications
 
+-----------------Team Information-----------------
+
+Project Team: 3
+<br><br>Team Members:
+<br>1.)	Micah Geertson - Micahgeertson@gmail.com
+<br>2.)	Jennifer Kang - Jennikang@csu.fullerton.edu
+<br>3.)	Nhat “Rocky” Nguyen - Nnguyen383@csu.fullerton.edu
+<br>4.)	Gene Lo - genelo@csu.fullerton.edu
+<br>5.)	Brian Nuckles - Nuckles26@csu.fullerton.edu
+<br>6.)	Sanika Deshpande - sanikadesh198@gmail.com
+
+-----------------Installation & Configuration-----------------
+
+Requires:
+- Bootstrap
+- JavaScript
+- Horizon
+- RethinkDB
+
+Install:
+- RethinkDB
+<br>	* Link: https://rethinkdb.com/
+- Horizon
+<br>	* Link: https://horizon.io/
+<br>	* Terminal command: npm install -g horizon
+
+Run:
+- Horizon
+<br>	* Terminal command: hz init <folder_name>
+<br>	* Terminal command: hz serve --dev
+
+-----------------User Documentation-----------------
+
+Use:
+- Open Terminal and navigate to project root folder
+- Run command: hz serve --dev
+- Copy address printed on Terminal into Browser window
+- Navigate web app using navigation bar and links
+
+-----------------Resource Documentation-----------------
+
+Third-Party Resources Used:
+- Single Page Navigation: https://github.com/davist11/jQuery-One-Page-Nav
+- Theme Inspiration: https://github.com/BlackrockDigital/startbootstrap-creative
+- Stock Images: https://stocksnap.io/
+
+License:
+- Stock images in this project fall under the Creative Commons License.
+- Code resources for this project use the MIT License included in project files.
+
+-----------------Project Overview-----------------
+
 Project 1 - Spring 2017
 
 Use client-side JavaScript, AJAX, and Horizon  to build one of the applications listed below.  You may use any available third-party Web Service APIs, libraries, or modules, provided that you comply with the terms of their licenses.
 Projects
-
 
 Build a site where...
 - Parents can share embarrassing baby pictures with their children’s potential dates
@@ -46,25 +97,4 @@ Grading
 - Appropriate use of available technologies
 - Innovation
 - Web design
-- Teamwork  
-
------------------Installation & Configuration-----------------
-
-Requires:
-- RethinkDB
-- Bootstrap
-
-Install:
-- RethinkDB
-- Horizon
-<br>	* Terminal command: npm install -g horizon
-
-Run:
-- Horizon
-<br>	* Terminal command: hz init <folder_name>
-<br>	* Terminal command: hz serve --dev
-
------------------Documentation-----------------
-
-License:
-- This project was built using the Bootstrap framework.
+- Teamwork
