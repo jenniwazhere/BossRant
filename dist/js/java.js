@@ -11,3 +11,12 @@ function incrementValueDisserve() {
     value++;
     document.getElementById('numberD').value = value;
 }
+
+$(".likeBtn button").on("click", function() {
+  var count = $(this).parent().find('.count').innerHTML;
+  console.log("inclickfunction");
+  $count.innerHTML($count.innerHTML() * 1 + 1);
+  $(this).parent().find('.count').innerHTML = count;
+  console.log(count);
+
+});
